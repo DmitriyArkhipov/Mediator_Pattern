@@ -13,6 +13,11 @@
 		81B22B781D68B1DB001D75B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B22B761D68B1DB001D75B3 /* Main.storyboard */; };
 		81B22B7A1D68B1DB001D75B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81B22B791D68B1DB001D75B3 /* Assets.xcassets */; };
 		81B22B7D1D68B1DB001D75B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B22B7B1D68B1DB001D75B3 /* LaunchScreen.storyboard */; };
+		81B22B881D68B2EB001D75B3 /* Colleague.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B22B871D68B2EB001D75B3 /* Colleague.m */; };
+		81B22B8B1D68B66D001D75B3 /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B22B8A1D68B66D001D75B3 /* Customer.m */; };
+		81B22B8E1D68B75E001D75B3 /* Programmer.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B22B8D1D68B75E001D75B3 /* Programmer.m */; };
+		81B22B911D68B811001D75B3 /* Tester.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B22B901D68B811001D75B3 /* Tester.m */; };
+		81B22B971D68B8E8001D75B3 /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B22B961D68B8E8001D75B3 /* Manager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,17 @@
 		81B22B791D68B1DB001D75B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81B22B7C1D68B1DB001D75B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81B22B7E1D68B1DB001D75B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B22B851D68B255001D75B3 /* IMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMediator.h; sourceTree = "<group>"; };
+		81B22B861D68B2EB001D75B3 /* Colleague.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colleague.h; sourceTree = "<group>"; };
+		81B22B871D68B2EB001D75B3 /* Colleague.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colleague.m; sourceTree = "<group>"; };
+		81B22B891D68B66D001D75B3 /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		81B22B8A1D68B66D001D75B3 /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
+		81B22B8C1D68B75E001D75B3 /* Programmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Programmer.h; sourceTree = "<group>"; };
+		81B22B8D1D68B75E001D75B3 /* Programmer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Programmer.m; sourceTree = "<group>"; };
+		81B22B8F1D68B811001D75B3 /* Tester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tester.h; sourceTree = "<group>"; };
+		81B22B901D68B811001D75B3 /* Tester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tester.m; sourceTree = "<group>"; };
+		81B22B951D68B8E8001D75B3 /* Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		81B22B961D68B8E8001D75B3 /* Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 		81B22B6C1D68B1DB001D75B3 /* mediator_pattern */ = {
 			isa = PBXGroup;
 			children = (
+				81B22B841D68B1E1001D75B3 /* Model */,
 				81B22B701D68B1DB001D75B3 /* AppDelegate.h */,
 				81B22B711D68B1DB001D75B3 /* AppDelegate.m */,
 				81B22B731D68B1DB001D75B3 /* ViewController.h */,
@@ -77,6 +94,24 @@
 				81B22B6E1D68B1DB001D75B3 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81B22B841D68B1E1001D75B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				81B22B851D68B255001D75B3 /* IMediator.h */,
+				81B22B861D68B2EB001D75B3 /* Colleague.h */,
+				81B22B871D68B2EB001D75B3 /* Colleague.m */,
+				81B22B891D68B66D001D75B3 /* Customer.h */,
+				81B22B8A1D68B66D001D75B3 /* Customer.m */,
+				81B22B8C1D68B75E001D75B3 /* Programmer.h */,
+				81B22B8D1D68B75E001D75B3 /* Programmer.m */,
+				81B22B8F1D68B811001D75B3 /* Tester.h */,
+				81B22B901D68B811001D75B3 /* Tester.m */,
+				81B22B951D68B8E8001D75B3 /* Manager.h */,
+				81B22B961D68B8E8001D75B3 /* Manager.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +184,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81B22B911D68B811001D75B3 /* Tester.m in Sources */,
 				81B22B751D68B1DB001D75B3 /* ViewController.m in Sources */,
 				81B22B721D68B1DB001D75B3 /* AppDelegate.m in Sources */,
 				81B22B6F1D68B1DB001D75B3 /* main.m in Sources */,
+				81B22B8E1D68B75E001D75B3 /* Programmer.m in Sources */,
+				81B22B881D68B2EB001D75B3 /* Colleague.m in Sources */,
+				81B22B8B1D68B66D001D75B3 /* Customer.m in Sources */,
+				81B22B971D68B8E8001D75B3 /* Manager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
